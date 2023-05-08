@@ -1,6 +1,6 @@
 lineOfOP = []
 
-def MathematicalExpression():
+def Expressao():
     print('Ensira o Valor aqui: ')
     usr_inpt = input('>>> ')
     processingList = list(usr_inpt)
@@ -203,7 +203,8 @@ def Menu():
     elif usr_inpt == '1':
         Operations()
     elif usr_inpt == '2':
-        MathematicalExpression()
+        print("Sem expressões")
+        Menu()
     else:
         print('-' * 50)
         print('Operação invalida. Tente novamente...')
